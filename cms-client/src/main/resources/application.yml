@@ -1,1 +1,1 @@
-eureka:  client:    serviceUrl:      defaultZone: http://localhost:8761/eureka/server:  port: 8084spring:  application:    name: cms-clientfeign:  hystrix:    enabled: true
+eureka:  client:    serviceUrl:      defaultZone: http://localhost:8761/eureka/server:  port: 8083spring:  application:    name: cms-clientfeign:  hystrix:    enabled: true
