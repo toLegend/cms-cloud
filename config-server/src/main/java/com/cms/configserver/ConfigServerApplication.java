@@ -1,4 +1,4 @@
-package com.cms.configserver.configserver;
+package com.cms.configserver;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

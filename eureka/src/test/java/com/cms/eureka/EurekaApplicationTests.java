@@ -1,4 +1,4 @@
-package com.cms.cmsservice.cmsservice;
+package com.cms.eureka;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class CmsServiceApplicationTests {
+public class EurekaApplicationTests {
 
     @Test
     public void contextLoads() {

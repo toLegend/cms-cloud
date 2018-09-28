@@ -1,4 +1,4 @@
-package com.cms.eureka.eureka;
+package com.cms.servicezuul;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class EurekaApplicationTests {
+public class ServiceZuulApplicationTests {
 
     @Test
     public void contextLoads() {

@@ -1,1 +1,1 @@
-eureka:  client:    serviceUrl:      defaultZone: http://localhost:8761/eureka/server:  port: 8084spring:  application:    name: service-zuulzuul:  routes:    api-a:      path: /api-a/**      serviceId: cms-service    api-b:      path: /api-b/**      serviceId: cms-client
+eureka:  client:    serviceUrl:      defaultZone: http://localhost:8761/eureka/server:  port: 8084spring:  application:    name: service-zuulzuul:  routes:    api-a:      path: /api-b/**      serviceId: cms-budget    api-b:      path: /api-s/**      serviceId: cms-setting
