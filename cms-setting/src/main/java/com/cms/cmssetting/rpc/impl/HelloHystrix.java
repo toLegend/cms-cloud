@@ -1,0 +1,1 @@
+package com.cms.cmssetting.rpc.impl;import com.cms.cmssetting.rpc.GetHello;import org.springframework.stereotype.Component;@Componentpublic class HelloHystrix implements GetHello {    @Override    public String getHello(String name) {        return "sorry  " + name;    }}
