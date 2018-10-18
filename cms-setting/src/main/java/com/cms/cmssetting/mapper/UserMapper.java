@@ -6,7 +6,7 @@ import java.util.List;
 import org.apache.ibatis.annotations.Param;
 
 /**
-* Created by Momf Generator on 2018/10/12
+* Created by Momf Generator on 2018/10/18
 */
 public interface UserMapper {
     long countByExample(UserExample example);
